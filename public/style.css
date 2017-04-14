@@ -1,0 +1,44 @@
+#index {
+    text-align: center;
+}
+#index h1:first-of-type{
+    font-weight: bold;
+    font-size: 2.1em;
+    margin-bottom: 70px;
+}
+#index p{
+    display: inline-block;
+    border: 1px solid red;
+    color: red;
+    padding: 5px;
+}
+#index p span{
+    color: black;
+}
+#index p:last-of-type{
+    border: 1px solid black;
+    color: black;
+}
+
+/* --------------------------- */
+
+#result h3{
+    margin-left: 50px;
+}
+#natural, #unix{
+    position: relative;
+    left: 50px;
+}
+
+/* --------------------------- */
+
+#error{
+    color: red;
+    text-align: center;
+}
+#error h1{
+    font-size: 3em;
+}
+#error h2{
+    font-size: 2em;
+}
