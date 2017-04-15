@@ -1,1 +1,1 @@
-ECHO attivo.
+

@@ -3,10 +3,10 @@
         <% if (contArr.length){ %>
         <% contArr.forEach(function(obj){ %>
             <h3>{</h3>
-            <p id="url"><span class="text">Url: </span><a href="<%= obj.url %>" target="_blank" class="content"><%= obj.url %></a></p>
-            <p id="name"><span class="text">Name: </span><span class="content"><%= obj.name %></span></p>
-            <p id="thumbnail"><span class="text">Thumbnail: </span><a href="<%= obj.thumbnail %>" target="_blank" class="content"><%= obj.thumbnail %></a></p>
-            <p id="context"><span class="text">Context: </span><a href="<%= obj.context %>" target="_blank" class="content"><%= obj.context %></a></p>
+            <p id="url"><span class="text">url: </span><a href="<%= obj.url %>" target="_blank" class="content"><%= obj.url %></a></p>
+            <p id="name"><span class="text">name: </span><span class="content"><%= obj.name %></span></p>
+            <p id="thumbnail"><span class="text">thumbnail: </span><a href="<%= obj.thumbnail %>" target="_blank" class="content"><%= obj.thumbnail %></a></p>
+            <p id="context"><span class="text">context: </span><a href="<%= obj.context %>" target="_blank" class="content"><%= obj.context %></a></p>
             <h3>}</h3>
         <% }); %>
         <% } else { %>

@@ -1,7 +1,16 @@
-#index {
+#index h1{
     text-align: center;
+    font-size: 2.2em;
 }
-
+#index h2, #index p{
+    margin-left: 30px;
+}
+#index p{
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid red;
+    color: red;
+}
 /* --------------------------- */
 
 #result h3{
@@ -15,6 +24,23 @@
     font-weight: bold;
 }
 #result p .content{
+    margin-left: 5px;
+    color: green;
+}
+
+/* --------------------------- */
+
+#history h3{
+    margin-left: 50px;
+}
+#history p{
+    position: relative;
+    left: 75px;
+}
+#history p .text{
+    font-weight: bold;
+}
+#history p .content{
     margin-left: 5px;
     color: green;
 }

@@ -1,0 +1,14 @@
+<% include header %>
+    <section id="history">
+        <% if (entries.length){ %>
+        <% entries.forEach(function(obj){ %>
+            <h3>{</h3>
+            <p id="entry"><span class="text">entry: </span><span class="content"><%= obj.entry %></span></p>
+            <p id="when"><span class="text">when: </span><span class="content"><%= obj.when %></span></p>
+            <h3>}</h3>
+        <% }); %>
+        <% } else { %>
+            <h2>No entry was found.</h2>
+        <% } %>
+    </section>
+<% include footer %>
